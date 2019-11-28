@@ -1,0 +1,24 @@
+{
+  "rulesDirectory": [
+    "tslint-plugin-prettier"
+  ],
+  "extends": [
+    "tslint:recommended", 
+    "tslint-react", 
+    "tslint-config-prettier"
+  ],
+  "linterOptions": {
+    "include": [
+      "./src/**/*"
+    ]
+  },
+  "rules": {
+    "prettier": true,
+    "interface-name": [
+      false
+    ],
+    "object-literal-sort-keys": false,
+    "jsx-no-bind": false,
+    "jsx-no-lambda": false
+  }
+}
